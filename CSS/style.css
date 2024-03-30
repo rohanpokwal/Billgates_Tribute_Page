@@ -1,0 +1,78 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  /* color: white; */
+}
+
+/* Navigation Bar */
+.navbar-container li {
+  list-style-type: none;
+  display: inline;
+}
+
+.navbar-container li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-container li a:hover {
+  border: 2px white solid;
+  padding: 8px;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.navbar-container {
+  background-color: bisque;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+
+/* Main Section */
+.main-section h1 {
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.main-section {
+  background-color: beige;
+  height: 700px;
+}
+
+.main-para {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.timelinepara ul {
+  padding-left: 30px;
+}
+
+.timelinepara {
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Styles for footer */
+.foot-info {
+  height: 100px;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-info p a {
+  color: white;
+}
